@@ -25,7 +25,6 @@
   link.type = 'text/css';
   link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
   document.getElementsByTagName( 'head' )[0].appendChild( link );
-
 </script>
 
 <!--[if lt IE 9]>
@@ -38,11 +37,13 @@
       background-color: rgba(0,0,0,0);
       border:0;
     }
+    .reveal a {
+      color:white;
+      }
         img{
           border:0;
           opacity: 1;
         }
-
     </style>
 		<div class="reveal">
 			<div class="slides" >
@@ -55,43 +56,16 @@
         </section>
         <!-- SLIDE 2 -->
         <section>
-          <section  data-background-color="rgb(26,188,156,0.60)">
-            <div >
-          <h2 style="color:white;">5 características del oro según Aristóteles</h2>
-
-          <img src="img/aristoteles-portrait.png"  width="200px"/>
-        </div>
-         </section>
-          <section data-background-color="rgb(211,84,0,0.80)">
-            <h2 style="color:white;">Currency</h2>
-            <ul  style="color:white;">
-            <li>Durable</li>
-            <li>Portable</li>
-            <li>Divisible</li>
-            <li>Fungible</li>
-            <li>Valor Intrínseco</li>
-            </ul>
-          </section>
-          <section data-background-color="rgb(41,128,185,0.80)">
-            <h2 style="color:white;">Modernas</h2>
-            <ul  style="color:white;">
-            <li>Escazo</li>
-            <li>Verificación de Autenticidad</li>
-            <li>Dificil de Falsificar</li>
-            <li>Uso masivo</li>
-            </ul>
-          </section>
-          <section data-background-color="rgb(26,188,156,0.60)">
-            <h2 style="color:white;">Fiat</h2>
-            <h3 style="color:white;">Que así sea</h3>
-            <img src="img/gold-bars.png" height="350px"/>
-            <p style="color:white;">En 1971, Nixon retira el patrón oro</p>
-
-          </section>
+          <h2>dinero fiat</h2>
+          <blockquote style="background-color:black;" >
+  						&ldquo;Inicialmente las monedas valían su peso en el metal que estaban fundidas, luego su valor fue proporcional a la cantidad de metales nobles que contenían dentro.
+              <br>
+              Finalmente, su valor era representado por una cierta cantidad de plata u oro depositada en los bancos.&rdquo;
+  					</blockquote>
         </section>
         <!-- SLIDE 3 -->
 				<section id="slide2">
-          <section >
+          <section>
             <p style="background-color:rgba(0,0,0,0.85);border-radius:20px;">Facilitador de transacciones</p>
             <img src="./img/trade.jpg" width="400" height="400"alt="" style="border:0;opacity:1;">
           </section>
@@ -109,7 +83,7 @@
             <p style="background-color:rgba(0,0,0,0.85);border-radius:20px;">Terceros de confianza("Trusted Third Parties")</p>
             <img src="./img/middleman.png" data-background-size="contain" style="border:0;">
           </section>
-          <section data-background-color="rgba(0,0,0,0.6)" data-state="caracteristica">
+          <section>
             <h2>Características</h2>
             <ul>
               <li style="background-color:rgba(0,0,0,0.85);border-radius:20px;">Aislado / Centralizado</li>
@@ -137,7 +111,7 @@
           <h1>Blockchain</h1>
         </section>
         <section>
-          <p><i>Blockchain es una red de computadoras <br> dedicada a registrar todas las transacciones realizadas en la red agrupadas en bloques</i></p>
+          <p><i>Blockchain es una red de computadoras <br> dedicada a registrar todas lasz transacciones realizadas en la red agrupadas en bloques</i></p>
           <!-- <img src="./img/dis.png" width="500" height="400" style="border:0;"alt=""> -->
         </section>
         <section>
@@ -183,6 +157,24 @@
                    <p class="fragment" style="background-color:rgba(0,0,0,0.85);border-radius:20px;">Una copia por nodo</p>
                    <p class="fragment" style="background-color:rgba(0,0,0,0.85);border-radius:20px;">Validación por hashing en conjunto</p>
                    <p class="fragment" style="background-color:rgba(0,0,0,0.85);border-radius:20px;">Consenso</p>
+
+        </section>
+        <section   data-transition="fade"
+                   data-background-transition="fade"
+                   data-background-image="./img/pow.jpg"
+                   data-background-size="cover">
+          <p class="fragment" style="background-color:rgba(0,0,0,0.85);border-radius:20px;">Proof of Work</p>
+        </section>
+        <section   data-transition="fade"
+                   data-background-transition="fade"
+                   data-background-image="./img/posmoney.jpg"
+                   data-background-size="cover">
+
+        </section>
+        <section   data-transition="fade"
+                   data-background-transition="fade"
+                   data-background-image="./img/pos.jpg"
+                   data-background-size="cover">
 
         </section>
       </section>
@@ -235,6 +227,32 @@
         <section>
           <h2>Demostración</h2>
         </section>
+      </section>
+      <section>
+        <section>
+          <h2>Bonus Track</h2>
+        </section>
+        <section data-background-iframe="http://truffleframework.com" data-background-interactive>
+             <p style="background-color:rgba(0,0,0,0.85);border-radius:20px;">Truffle Framework</p>
+        </section>
+        <section data-background-iframe="http://solidity.readthedocs.io/en/v0.4.21/contracts.html" data-background-interactive>
+             <p style="background-color:rgba(0,0,0,0.85);border-radius:20px;">Solidity</p>
+        </section>
+        <section >
+                <iframe width="1360" height="768" src="https://www.youtube.com/embed/YHjYt6Jm5j8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+      </section>
+      <section>
+        <h2 style="background-color:black;padding:auto;">Enlaces de interés</h2>
+        <ul style="background-color:black;padding:auto;" >
+          <li ><a href="https://www.youtube.com/watch?v=YIVAluSL9SU">Real value of Blockchain</a></li>
+          <li ><a href="https://solidity.readthedocs.io/en/v0.4.24/">Solidity</a></li>
+          <li ><a href="https://remix.ethereum.org">Remix</a></li>
+          <li ><a href="http://truffleframework.com">Truffle</a></li>
+        </ul>
+      </section>
+      <section>
+        <h1>The end...</h1>
       </section>
 			</div>
 		</div>
